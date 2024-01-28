@@ -1,0 +1,16 @@
+.add-category-modal {
+	background-color: #dfdfdf;
+	padding: 6rem 2rem 4rem;
+	border-radius: 2rem;
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	.add-category-modal__input-and-label {
+		padding-bottom: 3rem;
+	}
+	.add-category-modal__button {
+	}
+}
+.add-category-modal__popup-overlay {
+	background: rgba(0, 0, 0, 0.5);
+}
