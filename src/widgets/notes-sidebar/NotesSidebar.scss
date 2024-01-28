@@ -1,0 +1,52 @@
+.notes-sidebar {
+	padding-top: 5rem;
+	max-width: 20rem;
+}
+.notes-sidebar-category-container {
+	display: flex;
+	flex-direction: column;
+	gap: 0.8rem;
+	margin-bottom: 1.2rem;
+}
+.notes-sidebar-category {
+	display: flex;
+	gap: 1.2rem;
+}
+.notes-sidebar-category__button-around-input {
+	flex: 1;
+	background: none;
+	border: none;
+}
+.notes-sidebar-category__input {
+	color: black;
+	width: 0;
+	min-width: 100%;
+	border: none;
+	transition: all 0.3s;
+}
+.notes-sidebar-category__input--disabled {
+	pointer-events: none;
+}
+
+.notes-sidebar-category__input:hover {
+	color: #667667;
+}
+
+.notes-sidebar-category__input--enabled:hover {
+	color: black;
+}
+.notes-sidebar-category__input--selected {
+	color: #667667;
+}
+.notes-sidebar-category-button-container {
+	display: flex;
+}
+.notes-sidebar-category-button-container__button {
+}
+.notes-sidebar-button-container {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+.notes-sidebar-button-container__button {
+}
