@@ -1,0 +1,14 @@
+.header {
+	background-color: rgb(167, 168, 168);
+	display: flex;
+	align-items: center;
+	height: 10rem;
+	border-radius: 2rem;
+	padding: 0 1rem;
+}
+
+@media (max-width: 628px) {
+	.header {
+		height: 8rem;
+	}
+}
