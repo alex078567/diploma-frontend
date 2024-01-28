@@ -1,0 +1,28 @@
+.all-pages-wrapper {
+	max-width: 160rem;
+	margin: 0 auto;
+}
+
+@media (max-width: 1800px) {
+	.all-pages-wrapper {
+		max-width: 140rem;
+	}
+}
+
+@media (max-width: 1479px) {
+	.all-pages-wrapper {
+		max-width: 120rem;
+	}
+}
+
+@media (max-width: 1279px) {
+	.all-pages-wrapper {
+		max-width: 105rem;
+	}
+}
+
+@media (max-width: 1279px) {
+	.all-pages-wrapper {
+		padding: 0 2rem;
+	}
+}
